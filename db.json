@@ -1,0 +1,68 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstname": "jihed",
+      "lastname": "bouakez",
+      "addresse": "tunis",
+      "email": "jihed.bouakez@gmail.com",
+      "password": "aaa",
+      "username": "jihedjihed",
+      "role": "user"
+    },
+    {
+      "id": 2,
+      "firstname": "naceur",
+      "lastname": "mabrouk",
+      "addresse": "gafsa",
+      "email": "naceur.mabrouk@gmail.com",
+      "password": "bbb",
+      "username": "bbb",
+      "role": "user"
+    },
+    {
+      "email": "wajdi.agerbi@yahoo.fr",
+      "password": "$2a$10$/DKHrd3.JOK9JtNQuIdjsumR9NAdozUOrpMWkwQeAo0MuQkIftEUW",
+      "firstname": "wajdi",
+      "lastname": "Agervi",
+      "username": "wajdiii",
+      "addresse": "6 avenue youca -cité ambar3",
+      "id": 3
+    },
+    {
+      "email": "kamoraf.kimo@gamil.com",
+      "password": "$2a$10$lTFYgY6rFxliQPjHFkHRTeiImDipCAFHyoJuxiFOal3b4MRsyppdW",
+      "firstname": "kamel",
+      "lastname": "khmissi",
+      "username": "kamoraf",
+      "addresse": "tunisCity",
+      "id": 4
+    },
+    {
+      "email": "sami.sami@yahoo.fr",
+      "password": "$2a$10$DJRYLnAvxzFhFwBORs/RHOjFD1ZH/2bdRBd0k3nCBp48GK20I7bGC",
+      "firstname": "sami",
+      "lastname": "samir",
+      "username": "samisami",
+      "addresse": "tunis",
+      "id": 5
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

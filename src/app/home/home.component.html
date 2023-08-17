@@ -1,0 +1,32 @@
+<div>
+    <p [style]="propBind">home works!</p>
+    <p [style]="pb">second test</p>
+</div>
+<div>
+    <p>{{test}}</p>
+</div>
+<div>
+   
+    <form action="">
+        <!-- <input type="text" [(ngModel)]="twoWaybinding"> -->
+        <p>{{twoWaybinding}}</p>
+
+        <input type="text" name="ngm" id="" [(ngModel)]="ngm" >
+        <p>{{ngm}}</p>
+
+    </form>
+
+ 
+    <table>
+        <tr  *ngFor="let vr of tabchaine">
+            <td>{{vr}}</td>
+        </tr>
+    </table>
+       
+   
+</div>
+<div>
+    <button (click)="incrimnter()">incrimenter</button>
+    <p>{{counter}}</p>
+</div>
+
